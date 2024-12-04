@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZAB Desk - SZABIST</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+  <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ZAB Desk</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to ZAB Desk</h1>
+      <p>Your ultimate portal for academic and campus services.</p>
+      <a href="#services" class="cta-button">Explore Services</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About ZAB Desk</h2>
+      <p>ZAB Desk is the official platform of SZABIST, offering seamless academic management and support for students and faculty.</p>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <h3>Student Portal</h3>
+          <p>Access grades, attendance, and announcements in one place.</p>
+        </div>
+        <div class="service-card">
+          <h3>Faculty Portal</h3>
+          <p>Manage courses, grades, and student communications effortlessly.</p>
+        </div>
+        <div class="service-card">
+          <h3>Campus Updates</h3>
+          <p>Stay informed about the latest events, news, and schedules.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions? We're here to help!</p>
+      <a href="mailto:support@szabist.edu.pk" class="contact-button">Email Support</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 SZABIST University - All Rights Reserved</p>
+  </footer>
+
+  <df-messenger
+    project-id="szabist-my-project-13709"
+    agent-id="d815a28e-d667-4557-88a1-b75f077ce6aa"
+    language-code="en"
+    max-query-length="-1">
+    <df-messenger-chat-bubble
+     chat-title="ZAB-BOT🤖">
+    </df-messenger-chat-bubble>
+  </df-messenger>
+</body>
+</html>
